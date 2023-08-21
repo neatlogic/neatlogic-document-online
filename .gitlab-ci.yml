@@ -16,6 +16,8 @@ deploy1:
     - /^release.*$/
   script:
     - export ENV_NAME="develop";
+    - export LANG="zh_US.utf8";
+    - export LC_ALL="zh_US.utf8";
     - if [[ "${CI_COMMIT_REF_NAME}" == "release"* ]]; then ENV_NAME="release"; fi;
     - mvn deploy -e --settings /home/gitlab-runner/.m2/settings.xml -P${ENV_NAME}
     #- mvn install --settings /home/gitlab-runner/.m2/settings.xml -Pdevelop
