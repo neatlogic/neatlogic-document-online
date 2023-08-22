@@ -249,7 +249,7 @@ service tagent stop
 /bin/systemctl stop tagent.service 
 ```
 
-## Neatlogic端配置
+## 执行器组配置
 
 在 系统配置-执行器组管理 页面添加runner组，网段的范围必须包含tagent的ip地址。
 ![img.png](images/img.png)
