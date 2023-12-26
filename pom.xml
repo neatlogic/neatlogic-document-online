@@ -39,10 +39,4 @@ limitations under the License.
             </resource>
         </resources>
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>com.neatlogic</groupId>
-            <artifactId>neatlogic-framework</artifactId>
-        </dependency>
-    </dependencies> 
 </project> 
