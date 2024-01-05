@@ -5,9 +5,9 @@
 <li>支持常见的Windows、Linux、SUSE、Aix等操作系统。</li>
 <li>对操作系统资源极少，资源范围为：cpu <= 2%,内存：<= 200MB。</li>
 <li>同一受管机器，支持多用户安装。</li>
-<li>与<a href="../../../neatlogic-runner">neatlogic-runner</a>建立心跳连接，定期探测目标环境和服务可用性。</li>
-<li>支持从<a href="../../../neatlogic-runner">neatlogic-runner</a>注册、管理、以及自动匹配管理网段下发执行。</li>
-<li>支持在<a href="../../../neatlogic-web">neatlogic-web</a>上查看日志、重启、修改配置、升级等操作。</li>
+<li>与<a href="../../../neatlogic-runner" target="_blank">neatlogic-runner</a>建立心跳连接，定期探测目标环境和服务可用性。</li>
+<li>支持从<a href="../../../neatlogic-runner" target="_blank">neatlogic-runner</a>注册、管理、以及自动匹配管理网段下发执行。</li>
+<li>支持在<a href="../../../neatlogic-web" target="_blank">neatlogic-web</a>上查看日志、重启、修改配置、升级等操作。</li>
 </ol>
 
 # 适用场景
@@ -61,11 +61,11 @@ neatlogic-tagent常见几种适用场景：
 
 ### 获取安装包
 neatlogic-tagent两种获取安装包：
-- 基于[neatlogic-tagent-client](https://gitee.com/neat-logic/neatlogic-tagent-client)工程打包。源代码和资源都在这个项目里，需要自己编译，社区版暂不提供如何编译。有兴趣可以自己研究下。
+- 基于<a href="https://gitee.com/neat-logic/neatlogic-tagent-client" target="_blank">neatlogic-tagent-client</a>工程打包。源代码和资源都在这个项目里，需要自己编译，社区版暂不提供如何编译。有兴趣可以自己研究下。
 ```
 说明：windows安装包内嵌了Perl运行时依赖环境和7z工具。
 ```
-- 从[neatlogic-tagent-client](https://gitee.com/neat-logic/neatlogic-tagent-client)获取现成安装包（请查看readme）
+- 从<a href="https://gitee.com/neat-logic/neatlogic-tagent-client" target="_blank">neatlogic-tagent-client</a>获取现成安装包（请查看readme）
 ```
 #####安装包说明############
 #neatlogic-runner 自带3个安装包
