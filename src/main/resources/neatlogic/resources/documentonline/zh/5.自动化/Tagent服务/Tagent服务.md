@@ -136,7 +136,7 @@ service-install.bat
 ```
 
 在受管机器tagent安装完成后，查看日志如果提示注册成功。
-则可在"系统配置"->"Tagent管理"页面检查tagent状态。
+则可在 系统配置->[Tagent管理](../../100.系统配置/Tagent管理.md) 页面检查tagent状态。
 ![](images/tagent.png)
 
 # 其它补充
