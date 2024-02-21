@@ -201,6 +201,13 @@ read.timeout=5
 tagent.id=
 tenant=demo
 ```
+## tagent重新注册
+
+1. 停掉tagent服务
+2. 在neatlogic系统，打开 系统配置-tagent管理 页面，删除tagent
+   ![](images/tagent_delete.png)
+3. 还原tagent.conf文件
+4. 重启tagent服务
 
 ## tagent卸载
 - Linux | SUSE | Aix |Unix 类服务卸载
