@@ -220,12 +220,12 @@
     "moduleGroup": "deploy"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/主题设置.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/主题设置.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/主题设置.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/主题设置.md",
     "menu": "theme-manage",
     "moduleGroup": "framework"
   },
@@ -295,37 +295,37 @@
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/基础服务.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/基础服务.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/基础服务.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/基础服务.md",
     "menu": "databaseview-manage",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/基础服务.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/基础服务.md",
     "menu": "file-manage",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/基础服务.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/基础服务.md",
     "menu": "fulltextindex-manage",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/基础服务.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/基础服务.md",
     "menu": "tenantconfig-manage",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/定时作业.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/定时作业.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/定时作业.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/定时作业.md",
     "menu": "job-manage",
     "moduleGroup": "framework"
   },
@@ -485,27 +485,27 @@
     "moduleGroup": "report"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/接口管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/接口管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/接口管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/接口管理.md",
     "menu": "api-manage",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/接口管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/接口管理.md",
     "menu": "audit-overview",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/数据仓库.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/数据仓库.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/数据仓库.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/数据仓库.md",
     "menu": "datawarehouse-manage",
     "moduleGroup": "framework"
   },
@@ -540,17 +540,17 @@
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/服务窗口管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/服务窗口管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/服务窗口管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/服务窗口管理.md",
     "menu": "worktime-manage",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/服务窗口管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/服务窗口管理.md",
     "menu": "",
     "moduleGroup": "process"
   },
@@ -585,12 +585,12 @@
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/模块管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/模块管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/模块管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/模块管理.md",
     "menu": "module-manage",
     "moduleGroup": "framework"
   },
@@ -620,22 +620,22 @@
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/消息和公告.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/2.消息和公告/消息和公告.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/消息和公告.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/2.消息和公告/消息和公告.md",
     "menu": "history-overview",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/消息和公告.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/2.消息和公告/消息和公告.md",
     "menu": "notice-manage",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/消息和公告.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/2.消息和公告/消息和公告.md",
     "menu": "subscription-setting",
     "moduleGroup": "framework"
   },
@@ -665,12 +665,12 @@
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/矩阵管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/矩阵管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
     "menu": "matrix-overview",
     "moduleGroup": "framework"
   },
@@ -725,7 +725,7 @@
     "moduleGroup": "autoexec"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/自动化常见问题FAQ.md",
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/常见问题解答/自动化-常见问题FAQ.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -800,17 +800,17 @@
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/表单管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/表单管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/表单管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/表单管理.md",
     "menu": "form-overview",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/表单管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/表单管理.md",
     "menu": "",
     "moduleGroup": "process"
   },
@@ -855,12 +855,12 @@
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/通知策略管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/通知策略管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/通知策略管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/通知策略管理.md",
     "menu": "notifytactics-overview",
     "moduleGroup": "framework"
   },
@@ -925,12 +925,12 @@
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/集成管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/集成管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/集成管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/集成管理.md",
     "menu": "integration-manage",
     "moduleGroup": "framework"
   },
