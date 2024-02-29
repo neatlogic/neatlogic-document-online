@@ -1,10 +1,14 @@
-## CMDB数据清空后，如何重新初始化
+## CMDB如何清空模型，重新构建资产清单和应用清单
 重建模型 -> 重新配置资产清单和应用清单视图 -> 重建视图
+1. 清空cmdb相关模型数据
+   * truncate租户数据库(neatlogic_xxx)中cmdb开头的表
+   * 以及删除租户data库(neatlogic_xxx_data)中cmdb开头的表和scence开头的视图
 
-1. 重建模型
+2. 重建模型
    
    先设计好[**模型**](模型管理/模型管理.md)，包括模型的继承关系、模型属性、关联关系等内容。在系统中配置完模型后，再往模型中添加[**配置项**](配置项查询/配置项查询.md)数据，支持[**批量导入**](批量导入/批量导入.md)数据。
-2. 重新配置资产清单和应用清单的视图
+   > 至少遵循以下原则：所有ip的模型都继承一个父模型。将来配置资产清单就可以用这个父模型做根节点。
+3. 重新配置资产清单和应用清单的视图(如果不使用自动化、巡检、发布、采集，请忽略跳过)
    
    资产清单<br>
    打开配置管理-资源中心-视图设置，搜索“资产清单”
@@ -15,8 +19,48 @@
    打开配置管理-资源中心-视图设置，搜索“应用清单”
    ![](images/视图管理_应用清单视图.png)
    应用清单视图配置请参考[**应用清单**](资源中心/应用清单.md)-应用清单数据源配置。
+   
+   >注意：
+   >
+   >1.应用清单左边树结构的第一层是应用系统，由视图设置中 scence_appsystem_appmodule 视图的主模型控制的，
+   >数据来源也是scence_appsystem_appmodule 视图。
+   >第二层是应用模块，由视图设置中 scence_appmodule_appsystem 视图的主模型控制的，
+   >数据来源也是scence_appmodule_appsystem视图。
+   >第一层和第二层对应的主模型之间需要有关系联系。
+   >
+   >2.应用清单中的环境列表，数据来源是视图设置中 scence_env 视图。（后面需要改成全局属性中的环境）
+   >
+   >3.目前应用清单的功能并不完善，目前模型名字必须声明如下：
+   >APPIns（应用实例）、
+   >APPInsCluster（应用实例集群）、
+   >DBIns（DB实例）、
+   >DBCluster（DB集群）、
+   >AccessEndPoint（访问入口）、
+   >Database（DB库）、
+   >OS（操作系统）。
+   >以上其中展示七种模型的英文唯一标识是固定的，写死在代码中。（后续再优化）
+   >
+   >APPIns、APPInsCluster、DBIns、DBCluster、AccessEndPoint、Database这6个模型都是软件服务的后代模型，都有环境属性，
+   >还有它们又跟APPComponent（应用模块）有关系联系，所以它们可以根据应用模块和环境做过滤。
+   >只有OS模型是个例外，OS模型与APPIns（应用实例）、DBIns（DB实例）有关系联系。通过关系把应用实例与DB实例表格数据对应的OS模型数 
+   >据查出来展示。
+   >
+   >下面是7种模型表格对应的数据来源：
+   >APPIns数据来源于 scence_appinstance_detail_cluster 视图，所以该视图主模型应该设置为APPIns。
+   >APPInsCluster数据来源于 scence_ipobject_detail 视图，所以该视图主模型应该设置为APPInsCluster的祖先模型。
+   >DBIns数据来源于 scence_dbinstance_detail_cluster 视图，所以该视图主模型应该设置为DBIns。
+   >DBCluster数据来源于 scence_ipobject_detail 视图，所以该视图主模型应该设置为DBCluster的祖先模型。
+   >AccessEndPoint数据来源于 scence_ipobject_detail 视图，所以该视图主模型应该设置为AccessEndPoint的祖先模型。
+   >Database数据来源于 scence_ipobject_detail 视图，所以该视图主模型应该设置为Database的祖先模型。
+   >OS数据来源于 scence_os_detail_cluster 视图，所以该视图主模型应该设置为OS。
+   >
+   >APPInsCluster、DBCluster、AccessEndPoint、Database这个4种模型数据来源都是 scence_ipobject_detail 视图，
+   而APPIns、DBIns、OS数据来源于各自不同的视图，是因为这3个模型有各自的集群模型，且需要展示各自的集群。
 
-3. 重建视图
+1. 其他视图按理也需要配置，否则会导致部分自动化等功能不可用(如果不使用自动化、巡检、发布、采集，请忽略跳过)
+
+2. 重建视图(如果不使用自动化、巡检、发布、采集，请忽略跳过)
+   
    打开系统配置-基础服务-重建数据库视图，点击“重建所有视图”即可。
 
 ## 怎么添加配置项数据，例如添加一个linux操作系统数据
