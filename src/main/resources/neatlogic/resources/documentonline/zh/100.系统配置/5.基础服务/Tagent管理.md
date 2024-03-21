@@ -3,7 +3,7 @@ Tagent管理页面汇总了通过执行器在当前租户注册过的所有tagen
 ![](images/tagent管理.jpg)
 
 ## 执行器组和Tagent关系
-首先要在执行器组管理中配置了执行器组（Runner组），通过配置的执行器组找到注册的tagent服务。关于执行器组和tagent服务的安装和注册，请查看[Tagent服务](../5.自动化/Tagent服务/Tagent服务.md)。
+首先要在执行器组管理中配置了执行器组（Runner组），通过配置的执行器组找到注册的tagent服务。关于执行器组和tagent服务的安装和注册，请查看[Tagent服务](../../5.自动化/Tagent服务/Tagent服务.md)。
 
 ## 安装包管理
 安装包管理中可添加版本并关联安装包，应用于单个tagent升级和批量升级。
