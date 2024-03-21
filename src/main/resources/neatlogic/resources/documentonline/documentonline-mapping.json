@@ -1,6 +1,16 @@
 [
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/1.数据采集和巡检.md",
+    "menu": "action-detail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/1.数据采集和巡检.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/1.数据采集和巡检.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -41,6 +51,21 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/2.操作系统采集.md",
+    "menu": "discovery-rule-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/2.操作系统采集.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/2.操作系统采集.md",
+    "menu": "unknown-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/2.操作系统采集.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -66,6 +91,26 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/3.网络设备采集&巡检.md",
+    "menu": "discovery-data",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/3.网络设备采集&巡检.md",
+    "menu": "discovery-rule-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/3.网络设备采集&巡检.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/3.网络设备采集&巡检.md",
+    "menu": "unknown-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/3.网络设备采集&巡检.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -86,6 +131,21 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/4.虚拟化平台采集.md",
+    "menu": "discovery-rule-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/4.虚拟化平台采集.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/4.虚拟化平台采集.md",
+    "menu": "unknown-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/4.虚拟化平台采集.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -106,6 +166,21 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/5.容器云平台采集.md",
+    "menu": "discovery-rule-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/5.容器云平台采集.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/5.容器云平台采集.md",
+    "menu": "unknown-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/5.容器云平台采集.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -126,6 +201,21 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/6.存储设备采集.md",
+    "menu": "discovery-rule-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/6.存储设备采集.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/6.存储设备采集.md",
+    "menu": "unknown-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/6.存储设备采集.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -142,6 +232,21 @@
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/6.存储设备采集.md",
     "menu": "discovery-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/7.服务器设备采集&巡检.md",
+    "menu": "discovery-rule-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/7.服务器设备采集&巡检.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/7.服务器设备采集&巡检.md",
+    "menu": "unknown-manage",
     "moduleGroup": "cmdb"
   },
   {
@@ -181,6 +286,21 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/8.同步数据配置.md",
+    "menu": "discovery-rule-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/8.同步数据配置.md",
+    "menu": "sync-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/8.同步数据配置.md",
+    "menu": "unknown-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/数据采集/8.同步数据配置.md",
     "menu": "",
     "moduleGroup": "cmdb"
   },
@@ -190,9 +310,49 @@
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/IT服务常见问题FAQ.md",
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/流程管理/EOA模板.md",
+    "menu": "eoa-template-edit",
+    "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/流程管理/EOA模板.md",
+    "menu": "eoa-template-manage",
+    "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/IT服务-常见问题FAQ.md",
     "menu": "",
     "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/MR列表.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/MR列表.md",
+    "menu": "merge-create",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/MR列表.md",
+    "menu": "merge-overview",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/MR列表.md",
+    "menu": "merge-review",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/MR动作管理.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/MR动作管理.md",
+    "menu": "merge-action",
+    "moduleGroup": "codehub"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/Tagent服务/Tagent服务.md",
@@ -210,6 +370,31 @@
     "moduleGroup": "autoexec"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/Tagent管理.md",
+    "menu": "batchOperation",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/Tagent管理.md",
+    "menu": "BatchUpgrade",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/Tagent管理.md",
+    "menu": "InstallationPackage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/Tagent管理.md",
+    "menu": "tagentManage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/Tagent管理.md",
+    "menu": "timing-task-edit",
+    "moduleGroup": "framework"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/6.集成与发布/一键发布.md",
     "menu": "",
     "moduleGroup": "deploy"
@@ -218,6 +403,11 @@
     "filePath": "neatlogic/resources/documentonline/zh/6.集成与发布/一键发布.md",
     "menu": "job-manage",
     "moduleGroup": "deploy"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/个人设置.md",
+    "menu": "user-setting",
+    "moduleGroup": "framework"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/主题设置.md",
@@ -230,6 +420,61 @@
     "moduleGroup": "framework"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/事件/事件类型管理.md",
+    "menu": "event-solution-edit",
+    "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/事件/事件类型管理.md",
+    "menu": "event-type-manage",
+    "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/事务审计/事务审计.md",
+    "menu": "transaction-manage",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/仓库凭证.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/仓库凭证.md",
+    "menu": "credential-manage",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/代码仓库.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/代码仓库.md",
+    "menu": "repository-detail",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/代码仓库.md",
+    "menu": "repository-overview",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/代码库服务.md",
+    "menu": "repositoryserve-manage",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/1.仪表板/仪表板.md",
+    "menu": "dashboard-detail",
+    "moduleGroup": "dashboard"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/1.仪表板/仪表板.md",
+    "menu": "dashboard-edit",
+    "moduleGroup": "dashboard"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/1.仪表板/仪表板.md",
     "menu": "",
     "moduleGroup": "dashboard"
@@ -238,6 +483,11 @@
     "filePath": "neatlogic/resources/documentonline/zh/1.仪表板/仪表板.md",
     "menu": "dashboard-manage",
     "moduleGroup": "dashboard"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/优先级管理.md",
+    "menu": "project-edit",
+    "moduleGroup": "rdm"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/优先级管理.md",
@@ -331,12 +581,27 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/4.巡检/巡检作业.md",
+    "menu": "inspect-result",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/巡检作业.md",
+    "menu": "job-detail",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/巡检作业.md",
     "menu": "",
     "moduleGroup": "inspect"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/4.巡检/巡检作业.md",
     "menu": "job-manage",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/巡检定义.md",
+    "menu": "definition-detail",
     "moduleGroup": "inspect"
   },
   {
@@ -361,6 +626,16 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/工具库/工具库.md",
+    "menu": "testDetail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/工具库/工具库.md",
+    "menu": "toolDetail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/工具库/工具库.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -368,6 +643,11 @@
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/工具库/工具库.md",
     "menu": "tool-manage",
     "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单上报/工单上报.md",
+    "menu": "task-dispatch",
+    "moduleGroup": "process"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单上报/工单上报.md",
@@ -391,6 +671,11 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单处理/工单处理.md",
+    "menu": "task-detail",
+    "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单处理/工单处理.md",
     "menu": "",
     "moduleGroup": "process"
   },
@@ -401,6 +686,26 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/4.巡检/应用巡检.md",
+    "menu": "assets-detail",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/应用巡检.md",
+    "menu": "inspect-result",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/应用巡检.md",
+    "menu": "rule-of-threshold-detail",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/应用巡检.md",
+    "menu": "rule-of-threshold-manage",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/应用巡检.md",
     "menu": "",
     "moduleGroup": "inspect"
   },
@@ -408,6 +713,11 @@
     "filePath": "neatlogic/resources/documentonline/zh/4.巡检/应用巡检.md",
     "menu": "application-manage",
     "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/资源中心/应用清单.md",
+    "menu": "inspect-status-detail",
+    "moduleGroup": "cmdb"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/资源中心/应用清单.md",
@@ -428,6 +738,16 @@
     "filePath": "neatlogic/resources/documentonline/zh/6.集成与发布/应用配置.md",
     "menu": "application-config-manage",
     "moduleGroup": "deploy"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/应用配置.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/应用配置.md",
+    "menu": "application-config-manage",
+    "moduleGroup": "codehub"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/快捷服务/快捷服务.md",
@@ -453,6 +773,31 @@
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/批量导入/批量导入.md",
     "menu": "batch-import",
     "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/99.报表/报表.md",
+    "menu": "report-show",
+    "moduleGroup": "report"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/99.报表/报表.md",
+    "menu": "reportinstance-show",
+    "moduleGroup": "report"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/99.报表/报表.md",
+    "menu": "sendjob-edit",
+    "moduleGroup": "report"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/99.报表/报表.md",
+    "menu": "statement-edit",
+    "moduleGroup": "report"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/99.报表/报表.md",
+    "menu": "statement-view",
+    "moduleGroup": "report"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/99.报表/报表.md",
@@ -511,6 +856,41 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "menu": "circle-edit",
+    "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "menu": "knowledge-detail",
+    "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "menu": "knowledge-edit",
+    "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "menu": "knowledge-overview",
+    "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "menu": "knowledge-search",
+    "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "menu": "review-detail",
+    "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "menu": "template-edit",
+    "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
     "menu": "",
     "moduleGroup": "knowledge"
   },
@@ -523,6 +903,11 @@
     "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
     "menu": "template-manage",
     "moduleGroup": "knowledge"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/最新问题.md",
+    "menu": "recent-issues",
+    "moduleGroup": "inspect"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/4.巡检/最新问题.md",
@@ -596,8 +981,18 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/模型管理/模型管理.md",
+    "menu": "ci-detail",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/模型管理/模型管理.md",
     "menu": "ci-manage",
     "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/模板管理.md",
+    "menu": "templateEdit",
+    "moduleGroup": "rdm"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/模板管理.md",
@@ -608,6 +1003,21 @@
     "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/模板管理.md",
     "menu": "templateManage",
     "moduleGroup": "rdm"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/流程管理/流程管理.md",
+    "menu": "change-overview",
+    "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/流程管理/流程管理.md",
+    "menu": "flow-demo",
+    "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/流程管理/流程管理.md",
+    "menu": "flow-edit",
+    "moduleGroup": "process"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/流程管理/流程管理.md",
@@ -640,6 +1050,11 @@
     "moduleGroup": "framework"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/消息队列管理.md",
+    "menu": "mq-overview",
+    "moduleGroup": "framework"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/添加第一个服务目录.md",
     "menu": "",
     "moduleGroup": "process"
@@ -665,6 +1080,126 @@
     "moduleGroup": "process"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/6.集成与发布/版本中心.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/6.集成与发布/版本中心.md",
+    "menu": "",
+    "moduleGroup": "deploy"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/6.集成与发布/版本中心.md",
+    "menu": "version-center-manage",
+    "moduleGroup": "deploy"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/6.集成与发布/版本中心.md",
+    "menu": "version-detail",
+    "moduleGroup": "deploy"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本策略.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本策略.md",
+    "menu": "strategy-overview",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本管理.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本管理.md",
+    "menu": "merge-create",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本管理.md",
+    "menu": "version-overview",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本类型.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本类型.md",
+    "menu": "repository-overview",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/版本类型.md",
+    "menu": "versiontype-overview",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "auth-adduser",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "auth-manage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "role-addview",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "role-manage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "team-addview",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "team-manage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "user-addview",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/用户和权限.md",
+    "menu": "user-manage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
+    "menu": "matrix-edit",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
+    "menu": "matrix-external-edit",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
+    "menu": "matrix-private",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
+    "menu": "matrix-view-edit",
+    "moduleGroup": "framework"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
     "menu": "",
     "moduleGroup": "framework"
@@ -676,6 +1211,16 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/组合工具/组合工具.md",
+    "menu": "action-detail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/组合工具/组合工具.md",
+    "menu": "action-detail",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/组合工具/组合工具.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -683,6 +1228,16 @@
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/组合工具/组合工具.md",
     "menu": "action-manage",
     "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自动发现/网段自动发现.md",
+    "menu": "discovery-job-detail",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自动发现/网段自动发现.md",
+    "menu": "discovery-job-manage",
+    "moduleGroup": "cmdb"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自动发现/网段自动发现.md",
@@ -710,6 +1265,36 @@
     "moduleGroup": "cmdb"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/常见问题解答/自动化-常见问题FAQ.md",
+    "menu": "",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/作业/自动化作业.md",
+    "menu": "add-job",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/作业/自动化作业.md",
+    "menu": "job-detail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/作业/自动化作业.md",
+    "menu": "job-overview",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/作业/自动化作业.md",
+    "menu": "time-job-add",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/作业/自动化作业.md",
+    "menu": "time-job-detail",
+    "moduleGroup": "autoexec"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/作业/自动化作业.md",
     "menu": "",
     "moduleGroup": "autoexec"
@@ -722,11 +1307,6 @@
   {
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/作业/自动化作业.md",
     "menu": "time-job-list",
-    "moduleGroup": "autoexec"
-  },
-  {
-    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/常见问题解答/自动化-常见问题FAQ.md",
-    "menu": "",
     "moduleGroup": "autoexec"
   },
   {
@@ -771,6 +1351,26 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/自定义工具库/自定义工具库.md",
+    "menu": "reviewDetail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/自定义工具库/自定义工具库.md",
+    "menu": "script-add",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/自定义工具库/自定义工具库.md",
+    "menu": "script-detail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/自定义工具库/自定义工具库.md",
+    "menu": "testDetail",
+    "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/5.自动化/自定义工具库/自定义工具库.md",
     "menu": "",
     "moduleGroup": "autoexec"
   },
@@ -778,6 +1378,51 @@
     "filePath": "neatlogic/resources/documentonline/zh/5.自动化/自定义工具库/自定义工具库.md",
     "menu": "script-manage",
     "moduleGroup": "autoexec"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "graph-data",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "graph-data-beta",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "graph-edit",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "graph-edit-private",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "graph-edit-public",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "view-data",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "view-detail",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "view-edit-private",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
+    "menu": "view-edit-public",
+    "moduleGroup": "cmdb"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/自定义视图/自定义视图.md",
@@ -798,6 +1443,26 @@
     "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/流程管理/节点管理.md",
     "menu": "node-manage",
     "moduleGroup": "process"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/5.基础服务/菜单管理.md",
+    "menu": "extramenuManage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/表单管理.md",
+    "menu": "form-edit",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/表单管理.md",
+    "menu": "form-edit-old",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/表单管理.md",
+    "menu": "formSceneEdit",
+    "moduleGroup": "framework"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/表单管理.md",
@@ -825,6 +1490,11 @@
     "moduleGroup": "cmdb"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/事件/解决方案管理.md",
+    "menu": "event-solution-manage",
+    "moduleGroup": "process"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/资源中心/账号管理.md",
     "menu": "",
     "moduleGroup": "cmdb"
@@ -833,6 +1503,21 @@
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/资源中心/账号管理.md",
     "menu": "account-manage",
     "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/资产巡检.md",
+    "menu": "inspect-result",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/资产巡检.md",
+    "menu": "rule-of-threshold-detail",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/资产巡检.md",
+    "menu": "rule-of-threshold-manage",
+    "moduleGroup": "inspect"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/4.巡检/资产巡检.md",
@@ -856,6 +1541,21 @@
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/通知策略管理.md",
+    "menu": "notifyconfig-manage",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/通知策略管理.md",
+    "menu": "notifytactics-edit",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/通知策略管理.md",
+    "menu": "timing-task-edit",
+    "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/通知策略管理.md",
     "menu": "",
     "moduleGroup": "framework"
   },
@@ -863,6 +1563,11 @@
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/4.通知和订阅/通知策略管理.md",
     "menu": "notifytactics-overview",
     "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/4.巡检/配置文件.md",
+    "menu": "configfile-detail",
+    "moduleGroup": "inspect"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/4.巡检/配置文件.md",
@@ -905,6 +1610,46 @@
     "moduleGroup": "process"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置管理-常见问题FAQ.md",
+    "menu": "",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "menu": "ci-view",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "menu": "cientity-edit",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "menu": "cientity-edit-batch",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "menu": "cientity-list",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "menu": "cientity-view",
+    "moduleGroup": "cmdb"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "menu": "cientity-edit",
+    "moduleGroup": "inspect"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "menu": "cientity-view",
+    "moduleGroup": "inspect"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
     "menu": "",
     "moduleGroup": "cmdb"
@@ -920,11 +1665,6 @@
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/问题FAQ.md",
-    "menu": "",
-    "moduleGroup": "cmdb"
-  },
-  {
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/集成管理.md",
     "menu": "",
     "moduleGroup": "framework"
@@ -933,6 +1673,31 @@
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/集成管理.md",
     "menu": "integration-manage",
     "moduleGroup": "framework"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/项目功能介绍.md",
+    "menu": "dashboardEdit",
+    "moduleGroup": "rdm"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/项目功能介绍.md",
+    "menu": "project-edit",
+    "moduleGroup": "rdm"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/项目映射.md",
+    "menu": "",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/8.代码中心/项目映射.md",
+    "menu": "project-overview",
+    "moduleGroup": "codehub"
+  },
+  {
+    "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/项目管理.md",
+    "menu": "project-edit",
+    "moduleGroup": "rdm"
   },
   {
     "filePath": "neatlogic/resources/documentonline/zh/7.研发管理/项目管理.md",
