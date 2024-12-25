@@ -33,3 +33,6 @@ Tagent管理支持编辑配置、重启、重置密码、升级、删除、查�
 - 批量更新密码：指定更新密码对象的方式有三种，分别是代理组下的所有tagent服务、指定ip:port对应的tagent服务、指定的网段中的所有ip:port对应的tagent服务，三者是并集关系。
   
   ![](images/tagent管理_批量更新密码.png)
+
+- 导出：导出当前搜索结果下，所有tagent数据。
+  ![](images/tagent管理_导出.png)
