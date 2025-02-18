@@ -1,6 +1,6 @@
 # Tagent管理
 Tagent管理页面汇总了通过执行器在当前租户注册过的所有tagent服务，系统是通过执行器来并且显示其当前的连接状态。
-![](images/tagent管理.jpg)
+![](images/tagent管理.pngpng)
 
 ## 执行器组和Tagent关系
 首先要在执行器组管理中配置了执行器组（Runner组），通过配置的执行器组找到注册的tagent服务。关于执行器组和tagent服务的安装和注册，请查看[Tagent服务](../../5.自动化/Tagent服务/Tagent服务.md)。
