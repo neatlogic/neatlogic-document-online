@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.-->
         <relativePath>../neatlogic-parent</relativePath>
     </parent>
     <artifactId>neatlogic-document-online</artifactId>
-    <version>0.3.0.0-SNAPSHOT</version>
+    <version>${neatlogic.document.online}</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
