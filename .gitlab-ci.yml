@@ -15,6 +15,7 @@ deploy1:
     - /^develop.*$/
     - /^release.*$/
   script:
+    - export PATH=/app/serverware/maven/bin:/app/serverware/jdk/bin:$PATH
     - export ENV_NAME="develop";
     - export LANG="zh_CN.UTF-8";
     - export LC_ALL="zh_CN.UTF-8";
