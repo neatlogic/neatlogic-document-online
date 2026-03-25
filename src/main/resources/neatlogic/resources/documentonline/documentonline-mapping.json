@@ -645,22 +645,22 @@
     "moduleGroup": "autoexec"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单上报/工单上报.md",
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/服务/工单上报.md",
     "menu": "task-dispatch",
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单上报/工单上报.md",
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/服务/工单上报.md",
     "menu": "",
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单上报/工单上报.md",
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/服务/工单上报.md",
     "menu": "catalog-overview",
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/工单上报/工单上报.md",
+    "filePath": "neatlogic/resources/documentonline/zh/2.IT服务/服务/工单上报.md",
     "menu": "task-batch-dispatch",
     "moduleGroup": "process"
   },
