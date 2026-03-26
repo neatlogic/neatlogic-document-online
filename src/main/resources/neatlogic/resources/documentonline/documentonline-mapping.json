@@ -430,7 +430,7 @@
     "moduleGroup": "process"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/事务审计/事务审计.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/事务审计.md",
     "menu": "transaction-manage",
     "moduleGroup": "cmdb"
   },
@@ -765,12 +765,12 @@
     "moduleGroup": "autoexec"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/批量导入/批量导入.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/批量导入.md",
     "menu": "",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/批量导入/批量导入.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/批量导入.md",
     "menu": "batch-import",
     "moduleGroup": "cmdb"
   },
@@ -980,12 +980,12 @@
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/模型管理/模型管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/系统管理/模型管理.md",
     "menu": "ci-detail",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/模型管理/模型管理.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/系统管理/模型管理.md",
     "menu": "ci-manage",
     "moduleGroup": "cmdb"
   },
@@ -1615,52 +1615,52 @@
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "ci-view",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "cientity-edit",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "cientity-edit-batch",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "cientity-list",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "cientity-view",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "cientity-edit",
     "moduleGroup": "inspect"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "cientity-view",
     "moduleGroup": "inspect"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "cientity-manage",
     "moduleGroup": "cmdb"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项查询/配置项查询.md",
+    "filePath": "neatlogic/resources/documentonline/zh/3.配置管理/配置项/配置项查询.md",
     "menu": "",
     "moduleGroup": "process"
   },
