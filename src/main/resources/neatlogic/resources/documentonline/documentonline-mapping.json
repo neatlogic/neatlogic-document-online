@@ -855,7 +855,7 @@
     "moduleGroup": "framework"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/知识圈管理.md",
     "menu": "circle-edit",
     "moduleGroup": "knowledge"
   },
@@ -870,12 +870,12 @@
     "moduleGroup": "knowledge"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/知识分类.md",
     "menu": "knowledge-overview",
     "moduleGroup": "knowledge"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/知识分类.md",
     "menu": "knowledge-search",
     "moduleGroup": "knowledge"
   },
@@ -885,22 +885,22 @@
     "moduleGroup": "knowledge"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/模板管理.md",
     "menu": "template-edit",
     "moduleGroup": "knowledge"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/知识库入门.md",
     "menu": "",
     "moduleGroup": "knowledge"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/知识圈管理.md",
     "menu": "circle-manage",
     "moduleGroup": "knowledge"
   },
   {
-    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/新建知识文档.md",
+    "filePath": "neatlogic/resources/documentonline/zh/98.知识库/模板管理.md",
     "menu": "template-manage",
     "moduleGroup": "knowledge"
   },
