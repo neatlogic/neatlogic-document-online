@@ -1180,6 +1180,11 @@
     "moduleGroup": "framework"
   },
   {
+    "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/1.用户和权限/功能使用记录.md",
+    "menu": "feature-usage-manage",
+    "moduleGroup": "framework"
+  },
+  {
     "filePath": "neatlogic/resources/documentonline/zh/100.系统配置/3.数据和集成/矩阵管理.md",
     "menu": "matrix-edit",
     "moduleGroup": "framework"
