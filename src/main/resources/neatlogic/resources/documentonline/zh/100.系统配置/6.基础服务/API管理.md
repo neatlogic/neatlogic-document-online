@@ -1,35 +1,70 @@
-# 接口管理
-接口管理是管理系统内部接口的页面，加载当前系统所有的内部定义的接口，支持导出、设置接口访问频率、启用审计、查看帮助和测试。
+# API管理
+
+API管理用于查看和维护系统内部定义的接口，支持导出接口信息、设置访问频率、启用审计、查看帮助和接口测试。
+
+当需要对外提供接口调用、排查接口访问异常，或确认接口入参和认证规则时，可以从 API管理 开始。
+
+## 阅读路径
+
+可根据当前要解决的问题选择阅读入口。
+
+- 如果需要查看或导出接口信息，阅读“导出”。
+- 如果需要限制接口访问频率，阅读“接口访问频率”。
+- 如果需要记录接口调用日志，阅读“启用审计”。
+- 如果需要查看接口说明，阅读“查看帮助”。
+- 如果第三方系统需要调用接口，阅读“接口认证”。
+- 如果需要模拟接口调用，阅读“测试”。
+
+## 权限
+
+**操作权限**
+- 配置：系统配置-[用户管理](../1.用户和权限/用户管理.md)-授权-接口管理权限
+- 包含操作：查看接口、导出接口、设置访问频率、启用审计、查看帮助和测试接口
+- 配置人员：系统超级管理员
 
 ## 导出
-把内部所有接口的详情导出为pdf文档。
-  ![](images/接口管理_导出.png)
-  包括接口url、名称、描述和输入参数信息。
-  ![](images/接口管理_接口信息.png)
+
+导出用于将系统内部接口详情导出为 PDF 文档。导出内容包括接口 URL、名称、描述和输入参数等信息。
+
+![](images/接口管理_导出.png)
+
+![](images/接口管理_接口信息.png)
 
 ## 接口访问频率
-限制每秒访问接口的次数。
-  ![](images/接口管理_访问频率.png)
+
+接口访问频率用于限制接口每秒可访问次数，适合控制高频调用对系统造成的压力。
+
+![](images/接口管理_访问频率.png)
 
 ## 启用审计
-启用接口访问记录，可在调用记录中查看接口的访问记录，也可在[操作审计](操作审计.md)页面查看调用记录详情。
-  ![](images/接口管理_启用审计.png)
-  对于所有接口还支持设置访问记录保存期限，超过保留期限的访问记录系统自动删除，若不设置期限，则保留所有访问记录。
-  ![](images/接口管理_访问记录保留期限.png)
+
+启用审计后，系统会记录接口访问日志。访问记录可在调用记录中查看，也可在[操作审计](操作审计.md)页面查看详情。
+
+![](images/接口管理_启用审计.png)
+
+API管理支持设置访问记录保留期限。超过保留期限的访问记录会被系统自动删除；未设置期限时，系统会保留所有访问记录。
+
+![](images/接口管理_访问记录保留期限.png)
 
 ## 查看帮助
-查看接口的帮助信息。
-  ![](images/接口管理_帮助.png)‘
+
+查看帮助用于查看接口的说明信息，便于确认接口用途、请求参数和返回内容。
+
+![](images/接口管理_帮助.png)
 
 ## 接口认证
-第三方系统如需调用接口，需要按照以下规则组织数据并进行签名加密。
 
-### 1.获取token
-每一个用户都拥有一个Token，Token值仅自己可见，用户可以随时刷新Token，第三方也需要同步更新Token值。
+第三方系统调用 NeatLogic 接口时，需要按规则组织请求数据，并使用用户 Token 生成 HMAC 签名。
+
+### 1. 获取 Token
+
+每个用户都有一个 Token。Token 仅用户本人可见，用户可以随时刷新 Token。第三方系统使用该用户身份调用接口时，也需要同步更新 Token。
+
 ![](images/接口管理_获取token.png)
 
-### 2.设置Header
-访问neatlogic系统接口需额外携带 Tenant、AuthType、Authorization、x-access-key header
+### 2. 设置 Header
+
+访问 NeatLogic 系统接口时，请求需要额外携带 `Tenant`、`AuthType`、`Authorization` 和 `x-access-key` Header。
     
   <table style="width:100%">
     <thead>
@@ -64,21 +99,48 @@
   </table>
 
 #### Authorization 生成规则
-##### 1、sign = x-access-key + # + requestUri +"?"+queryString+ # + base64(post body)<br>
-注意：get method 没有post body，也需要拼接#号。 如果没有queryString，不需要提供？。
-##### 2、authorization = "Hmac " + HmacSHA256签名加密(token,sign)
-范例：  
-请求地址：/neatlogic/api/rest/inspect/report/get  
-post body:
-```` json
-{"test":"ddddd"}
-````
-拼接签名数据：  
-sign=admin#/neatlogic/api/rest/inspect/report/get#ewogICAgInRlc3QiOiJkZGRkZCIKfQ==  
-使用SHA256算法进行签名：  
-authorization="Hmac " + HmacSHA256签名加密(用户token, sign)
 
-``` java
+##### 1. 生成 sign
+
+```text
+sign = x-access-key + # + requestUri + "?" + queryString + # + base64(post body)
+```
+
+GET 请求没有 `post body` 时，也需要拼接 `#`。如果没有 `queryString`，不需要提供 `?`。
+
+##### 2. 生成 authorization
+
+```text
+authorization = "Hmac " + HmacSHA256签名加密(token, sign)
+```
+
+范例：
+
+请求地址：
+
+```text
+/neatlogic/api/rest/inspect/report/get
+```
+
+post body:
+
+```json
+{"test":"ddddd"}
+```
+
+拼接签名数据：
+
+```text
+sign=admin#/neatlogic/api/rest/inspect/report/get#ewogICAgInRlc3QiOiJkZGRkZCIKfQ==
+```
+
+使用 SHA256 算法进行签名：
+
+```text
+authorization="Hmac " + HmacSHA256签名加密(用户token, sign)
+```
+
+```java
 InputStream input = request.getInputStream();
 StringBuilder sb = new StringBuilder();
 BufferedReader reader;
@@ -96,7 +158,7 @@ String sign = user + "#" + request.getRequestURI() + queryString + "#" + Base64.
 String authorization = SHA256Util.encrypt(token, sign);
 ```
 签名程序：
-``` java
+```java
     public static String encrypt(String secret, String sign) {
         try {
             SecretKeySpec signingKey = new SecretKeySpec(secret.getBytes(), "HmacSHA256");
@@ -119,7 +181,7 @@ String authorization = SHA256Util.encrypt(token, sign);
     }
 ```
 完整调用范例：
-``` java
+```java
 package neatlogic.framework.apiparam.validator;
 
 import com.alibaba.fastjson.JSON;
@@ -295,5 +357,7 @@ public class HmacDemo {
 
 ```
 ## 测试
-模拟发送请求，检查接口调用情况
-  ![](images/接口管理_测试.png)
+
+测试用于模拟发送请求，检查接口调用情况。
+
+![](images/接口管理_测试.png)
