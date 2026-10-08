@@ -1,5 +1,7 @@
-# ldap认证
-neatlogic服务的config.properties 修改以下配置：
+# LDAP 认证
+如需配置 LDAP 认证，可按以下步骤操作。
+
+操作步骤：修改服务端 `config.properties` 中的 LDAP 配置，重启服务。
 ```
 login.auth.type=ldap
 
